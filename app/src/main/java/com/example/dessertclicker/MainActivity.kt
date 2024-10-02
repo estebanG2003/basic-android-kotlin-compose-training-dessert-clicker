@@ -78,6 +78,7 @@ private const val TAG = "MainActivity"
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         enableEdgeToEdge()
+
         super.onCreate(savedInstanceState)
         Log.d(TAG, "onCreate Called")
         setContent {
